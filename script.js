@@ -1,5 +1,4 @@
 const sectionMenu = document.querySelectorAll('.section-menu');
-const sectionHead = document.querySelectorAll('h2');
 const arrows = document.querySelectorAll('.arrow-icon');
 const sectionNames = document.querySelectorAll('.section-name');
 
