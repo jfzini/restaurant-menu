@@ -1,4 +1,6 @@
-
+#footer {
+  background-color: blueviolet;
+}
 
 @media screen and (min-width: 688) {
   
