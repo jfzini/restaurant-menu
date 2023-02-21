@@ -39,6 +39,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
 
 #payment-container , #address-container, #social-container{
   text-align: center;
