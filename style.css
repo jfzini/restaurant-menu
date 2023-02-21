@@ -25,16 +25,19 @@
   margin-top: 3px;
   width: 35px;
   margin-left: 10px;
+  background-color: white;
+  height: 29px;
+  padding: 3px;
+  border-radius: 3px;
 }
 
 #pix {
-  width: 28px;
+  width: 30px;
 }
 
-#elo , #mastercard , #pix , #visa{
-  background-color: white;
-  padding: 3px;
-  border-radius: 3px;
+#elo {
+  height: 29px;
+  width: 40px;
 }
 
 #address p{
