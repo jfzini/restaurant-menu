@@ -137,6 +137,10 @@ hr {
   font-size: 10px;
 }
 
+.together-text {
+  display: flex;
+}
+
 @media screen and (min-width: 688px) {
 
 }
