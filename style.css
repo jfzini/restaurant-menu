@@ -80,6 +80,16 @@ main {
   animation-fill-mode: forwards;
 }
 
+.arrow-icon {
+  width: 2rem;
+}
+
+.section-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .section-menu {
   display: none;
   flex-direction: column;
