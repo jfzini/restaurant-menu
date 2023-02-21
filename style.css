@@ -6,8 +6,49 @@
 
 #footer {
   background-color: blueviolet;
+  padding: 13px;
 }
 
-@media screen and (min-width: 688) {
-  
+#payment-container , #address-container, #social-container{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#payment {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-payment {
+  width: 35px;
+  margin-left: 10px;
+}
+
+#pix {
+  width: 28px;
+}
+
+#address p{
+  width: 200px;
+}
+
+#address {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icon {
+  width: 38px;
+}
+
+#copyright {
+  text-align: center;
+  font-size: 13px;
+}
+
+@media screen and (min-width: 688px) {
+
 }
