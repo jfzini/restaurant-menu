@@ -22,12 +22,19 @@
 }
 
 .icon-payment {
+  margin-top: 3px;
   width: 35px;
   margin-left: 10px;
 }
 
 #pix {
   width: 28px;
+}
+
+#elo , #mastercard , #pix , #visa{
+  background-color: white;
+  padding: 3px;
+  border-radius: 3px;
 }
 
 #address p{
