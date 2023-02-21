@@ -49,6 +49,7 @@ main {
   color: white;
   font-weight: 600;
   line-height: 1rem;
+  padding-bottom: 2rem;
 }
 
 .item-name, .price {
