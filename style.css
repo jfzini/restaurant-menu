@@ -84,7 +84,8 @@ hr {
 }
 
 #footer {
-  background-color: blueviolet;
+  background-color: rgb(27, 27, 27);
+  color: gold;
   padding: 13px;
   display: flex;
   flex-direction: column;
@@ -92,7 +93,7 @@ hr {
   align-items: center;
 }
 
-#payment-container , #address-container, #social-container{
+.container-footer{
   text-align: center;
   margin-bottom: 20px;
 }
@@ -100,7 +101,6 @@ hr {
 .icon-payment {
   margin-top: 3px;
   width: 35px;
-  margin-left: 10px;
   background-color: white;
   height: 29px;
   padding: 3px;
@@ -117,7 +117,7 @@ hr {
 }
 
 #address p{
-  width: 200px;
+  width: 100%;
 }
 
 #address {
@@ -130,11 +130,13 @@ hr {
   width: 38px;
 }
 
-#copyright {
+#cpy-container p{
+  font-size: 5px;
+  color: white;
   text-align: center;
-  font-size: 13px;
+  font-size: 10px;
 }
 
-@media screen and (min-width: 688) {
-  
+@media screen and (min-width: 688px) {
+
 }
