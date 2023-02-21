@@ -7,6 +7,10 @@
 #footer {
   background-color: blueviolet;
   padding: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #payment-container , #address-container, #social-container{
@@ -14,12 +18,7 @@
   margin-bottom: 20px;
 }
 
-#payment {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .icon-payment {
   margin-top: 3px;
