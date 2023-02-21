@@ -29,8 +29,9 @@ h1 {
 }
 
 h2 {
-  font-size: 0.8rem;
+  font-size: 1rem;
   line-height: 15vh;
+  text-shadow: 0 0 10px black;
 }
 
 #logo-img {
@@ -44,17 +45,49 @@ main {
   justify-content: space-around;
   align-items: center;
   text-align: center;
+  background-image: url('img/bgtest1.jpg');
+  color: white;
+  font-weight: 600;
+  line-height: 1rem;
 }
 
+.item-name, .price {
+  font-weight: 800;
+  font-size: 0.65rem;
+  color: goldenrod;
+  filter: brightness(120%);
+  text-shadow: 0 0 5px black;
+}
+
+/* #bg-div {
+  margin: 1.5rem 0;
+  background-color: rgba(173, 173, 173, 0.12);
+  border-radius: 1rem;
+  padding: 1rem;
+  max-width: 85vw;
+  box-shadow: 0 0 20px black;
+  backdrop-filter: blur(1px);
+} */
+
 @keyframes fade-in {
-  from {opacity: 0; transform: scale(0.9);}
+  from {opacity: 0; transform: scale(0.95);}
   to {opacity: 1; transform: scale(1);}
 }
 
 .show {
   animation-name: fade-in;
-  animation-duration: 2s;
+  animation-duration: 1.5s;
   animation-fill-mode: forwards;
+}
+
+.arrow-icon {
+  width: 2rem;
+}
+
+.section-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-menu {
@@ -62,25 +95,32 @@ main {
   flex-direction: column;
   align-items: center;
   padding: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
 .section-menu p {
-  font-size: .65rem;
+  font-size: 0.6rem;
   max-width: 50vw;
+  color: rgb(230, 230, 230);
+  text-shadow: 0 0 3px black;
 }
 
 .items {
   display: flex;
   justify-content: space-between;
   text-align: left;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   width: 80vw;
 }
 
 hr {
   width: 80vw;
-  height: 2px;
-  margin-bottom: 2rem
+  height: 1px;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 25%;
 }
 
 #footer {
