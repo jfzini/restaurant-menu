@@ -54,7 +54,7 @@ main {
 
 .item-name, .price {
   font-weight: 800;
-  font-size: 0.65rem;
+  font-size: 0.8rem !important;
   color: goldenrod;
   filter: brightness(120%);
   text-shadow: 0 0 5px black;
