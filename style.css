@@ -13,7 +13,7 @@
   justify-content: space-around;
   align-items: left;
   height: 100vh;
-  width: 100vw;
+  max-width: 100vw;
   background-image: url('img/top-view-bowl-with-lentils-variety-condiments.jpg');
   background-size: cover;
   background-position: center;
